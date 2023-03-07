@@ -1,12 +1,16 @@
 version = 1
-
 exclude_patterns = ["*.config.js"]
+test_patterns = []
 
 [[analyzers]]
-name = "javascript"
+  name = "javascript"
+  enabled = true
 
   [analyzers.meta]
-  plugins = ["react"]
-
+    environment= ["nodejs", "browser"]
+    plugins = "react"
+    dialect = "typescript"
 [[transformers]]
-name = "prettier"
+  name = "prettier"
+  enabled = true
+
