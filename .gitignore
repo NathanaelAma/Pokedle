@@ -49,3 +49,4 @@ next.config.original.js
 
 # Sentry
 next.config.wizardcopy.js
+bin/deepsource
