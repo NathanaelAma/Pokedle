@@ -7,7 +7,6 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    
     <main>
       <div className="h-full">
         <div className="flex flex-col w-full mx-auto my-0 max-w-[var(--game-max-width)]">
