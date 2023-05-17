@@ -7,7 +7,6 @@ export const Urls = {
     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/",
   SVG_URL:
     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/",
-  
 };
 
 export const generations = [
@@ -75,19 +74,19 @@ export const colors = {
 };
 
 export const types = {
- normal: {
+  normal: {
     id: Types.NORMAL,
     name: "Normal",
     color: colors.normal,
     svg: "/types/normal.svg",
   },
-  fire:{
+  fire: {
     id: Types.FIRE,
     name: "Fire",
     color: colors.fire,
     svg: "/types/fire.svg",
   },
- water: {
+  water: {
     id: Types.WATER,
     name: "Water",
     color: colors.water,
@@ -184,4 +183,4 @@ export const types = {
     color: colors.fairy,
     svg: "/types/fairy.svg",
   },
-}
+};

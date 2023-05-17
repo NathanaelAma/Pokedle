@@ -1,17 +1,15 @@
-import React from 'react'
+import React from "react";
 
 type Props = {
-  word: String,
-}
+  word: String;
+};
 
 const Board = (props: Props) => {
   return (
-    <div className='flex items-center place-content-center'>
-      <div className=''>
-        {props.word}
-      </div>
+    <div className="flex items-center place-content-center">
+      <div className="">{props.word}</div>
     </div>
-  )
-}
+  );
+};
 
-export default Board
+export default Board;

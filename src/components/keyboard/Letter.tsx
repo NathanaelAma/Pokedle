@@ -1,14 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const LetterProps = {
   letter: String,
-}
-
+};
 
 const Letter = () => {
-  return (
-    <div>letter</div>
-  )
-}
+  return <div>letter</div>;
+};
 
-export default Letter
+export default Letter;
