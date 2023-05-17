@@ -8,7 +8,7 @@ test_patterns = []
 
   [analyzers.meta]
     environment= ["nodejs", "browser"]
-    plugins = "react"
+    plugins = ["react"]
     dialect = "typescript"
 [[transformers]]
   name = "prettier"

@@ -33,7 +33,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/types/**/*.tsx",
-    "/home/nate/Projects/pokedle/.next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"
